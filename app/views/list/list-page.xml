@@ -1,0 +1,12 @@
+<Page loaded="loaded" xmlns:lv="nativescript-ui-listview">
+    <ActionBar title="Groceries"></ActionBar>
+    <GridLayout>
+        <lv:RadListView items="{{ groceryList }}" row="1">
+            <lv:RadListView.itemTemplate>
+                <GridLayout class="grocery-list-item">
+                    <Label class="p-15" text="{{ name }}" />
+                </GridLayout>
+            </lv:RadListView.itemTemplate>
+        </lv:RadListView>
+    </GridLayout>
+</Page>
