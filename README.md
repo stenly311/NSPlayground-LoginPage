@@ -1,6 +1,6 @@
 # NSPlayground-LoginPage
  Mobile app login application using NativeScript and Playground for deployment
 
-<p align="center">
+<p>
   <img src="/resources/ios-22.gif" alt="Page overview" />
 </p>
